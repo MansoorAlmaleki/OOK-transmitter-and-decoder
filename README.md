@@ -60,8 +60,7 @@ to a .wav file
 
 • the bit width can be reduced for faster data transfer but due to circuit limitations it might not give the expected result due to voltage not ramping fast enough (best signal quality @ 25ms bit width)
 
-**Results**
-![Alt text](outputAndInput.png)
+**Transmission recording**
 
 https://github.com/user-attachments/assets/ad18c15b-58a2-4aff-95e0-3f11218b6731
 
