@@ -6,6 +6,7 @@ REQUIRED MATERIALS:
 
 &#x20;• audio editing software (audacity works best)
 
+![Alt text](16MhzCarrierOnSDR.png)
 
 
 
@@ -47,6 +48,8 @@ to a .wav file
 &#x20;open the file in the desired audio editing program and align the left side crop to the exact start of the first preamble bit
 
 &#x20;once done save the cropped audio file and include it in the OOKdecoder.py program to see your results (Adjust the threshold variable  value to get the desired output)
+
+![Alt text](binaryDataWaveform.png)
 
 
 
