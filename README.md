@@ -1,4 +1,4 @@
-REQUIRED MATERIALS:
+**REQUIRED MATERIALS:**
 
 &#x20;• a software defined radio(SDR) for signal recording and sdr software(sdr++ works best)
 
@@ -60,5 +60,7 @@ to a .wav file
 
 • the bit width can be reduced for faster data transfer but due to circuit limitations it might not give the expected result due to voltage not ramping fast enough (best signal quality @ 25ms bit width)
 
+**Results**
+![Alt text](outputAndInput.png)
 
 
