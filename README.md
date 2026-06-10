@@ -56,7 +56,7 @@ to a .wav file
 **extra information**:
 
 &#x20;• the preamble and postamble contains 8 bits where all bits are on (used as the cropping reference)
- • the transmitter has a bit width of 25ms meaning that it transmits 1000ms/25ms bit width= 40bits/second so a 32\*32 image (1040 bits pre/post amble included) will take around (imageBitSize+preamble+postamble)/ bits per second or in our case 1040bits/40bits per second = 26 seconds for transmission
+ • the transmitter has a bit width of 25ms meaning that it transmits 40bits/s (1000ms/25ms bit width = 40bits/second) so a 32\*32 image (1040 bits with pre/post amble included) will take around (imageBitSize+preamble+postamble)/bits per second or in our case 1040bits/40bits per second = 26 seconds for a full transmission
 
 • the bit width can be reduced for faster data transfer but due to circuit limitations it might not give the expected result due to voltage not ramping fast enough (best signal quality @ 25ms bit width)
 
