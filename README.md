@@ -37,9 +37,7 @@ once the array is empty copy all of the data from the binary image text file to 
 
 once done plug in your desired micro controller and upload the code then wire the digital write pin to the optocoupler anode(MUST HAVE A CURRENT LIMITING RESISTOR AROUND 220 ohms - 2k) and the MCU ground to the optocoupler cathode.
 
-when all of these steps are done turn on the transmitter and MCU to begin transmitting data over air and use your SDR to log the data
-
-to a .wav file
+when all of these steps are done turn on the transmitter and the MCU to transmit data over air 
 
 
 
